@@ -43,6 +43,8 @@ video {
     font-family: 'Share Tech Mono', monospace;
     font-weight: 600;
     padding: 7px;
+    color: white;
+    background-color: #fafafa00;
     border-radius: 0.7rem;
     border: none;
     transition: 0.5s;
@@ -61,6 +63,10 @@ video {
 .top-section-right, .top-section-right-btn-entrar > .btn:hover,.top-section-right > .top-section-right-border-btn > .btn:hover{
     cursor: pointer;
     scale: 1.1;
+}
+.top-section-right-btn-entrar > .btn:hover,.top-section-right-border-btn > .btn:hover{
+    color: black;
+    background-color: white;
 }
 #intro {
     display: flex;
