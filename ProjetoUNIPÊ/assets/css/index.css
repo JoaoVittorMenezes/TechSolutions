@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+
+:root{
+font-family: 'Share Tech Mono', monospace;
+}
 body {
     background: fixed;
     background-color: #240d56;
@@ -18,15 +25,42 @@ video {
     height: 100%;
     object-fit: cover;
     z-index: -1;
-  }  
+}  
 #navegation ul {
-   list-style: none;
-   display: flex;
-   column-gap: 3rem;
+    list-style: none;
+    display: flex;
+    column-gap: 3rem;
 }
 #navegation a {
     color: white;
     text-decoration: none;
+}
+#navegation a:hover{
+    border-bottom: white solid 1px;
+    
+}
+.top-section-right,.top-section-right-btn-entrar > .btn,.top-section-right > .top-section-right-border-btn > .btn {
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 600;
+    padding: 7px;
+    border-radius: 0.7rem;
+    border: none;
+    transition: 0.5s;
+}
+.top-section-right > .top-section-right-btn-entrar{
+    display: inline;
+}
+.top-section-right > .top-section-right-border-btn{
+    display: inline;
+    padding-right: 10px;
+    border-right: white solid 1px;
+}
+.top-section-right > .entrar{
+    margin-left: .4rem;
+}
+.top-section-right, .top-section-right-btn-entrar > .btn:hover,.top-section-right > .top-section-right-border-btn > .btn:hover{
+    cursor: pointer;
+    scale: 1.1;
 }
 #intro {
     display: flex;
@@ -39,5 +73,6 @@ video {
 }
 #slogan {
     color: white;
-    font-size: 20px;
+    font-size: 50px;
+    font-family: 'Major Mono Display', monospace;
 }
