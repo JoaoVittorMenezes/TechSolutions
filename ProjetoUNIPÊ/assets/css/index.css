@@ -6,6 +6,7 @@
 font-family: 'Share Tech Mono', monospace;
 }
 body {
+    color: white;
     background: fixed;
     background-color: #240d56;
 }
@@ -65,8 +66,8 @@ video {
     scale: 1.1;
 }
 .top-section-right-btn-entrar > .btn:hover,.top-section-right-border-btn > .btn:hover{
-    color: black;
-    background-color: white;
+    color: white;
+    border: white solid 1px;
 }
 #intro {
     display: flex;
@@ -81,4 +82,47 @@ video {
     color: white;
     font-size: 50px;
     font-family: 'Major Mono Display', monospace;
+}
+
+/*
+    footer
+*/
+
+footer{
+    background-color: white;
+    color: black;
+}
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px 0 30px;
+    border-top: 1px solid lightskyblue;
+}
+.bottom-section-left, .bottom-section-right{
+    width: 45%;
+}
+.bottom-section-left{
+    display: flex;
+    justify-content: flex-end;
+}
+.bottom-section-right{
+    display: flex;
+    justify-content: flex-start;
+}
+.bottom-section-right-icons {
+    list-style: none;
+    font-size: 1.45rem;
+    display: flex;
+    column-gap: 1rem
+}
+.bottom-section-right-icons a {
+    color: black;
+    text-decoration: none;
+}
+.fa-brands{
+    transition: 0.2s;
+}
+.fa-brands:hover{
+    scale: 1.1;
 }
