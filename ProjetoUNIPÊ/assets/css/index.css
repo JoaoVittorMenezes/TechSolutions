@@ -101,7 +101,6 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin: 0 30px 0 30px;
-    border-top: 1px solid lightskyblue;
 }
 .bottom-section-left, .bottom-section-right{
     width: 45%;
