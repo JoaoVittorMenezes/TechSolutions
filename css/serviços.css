@@ -151,3 +151,17 @@ main a {
     align-items: center;
     border-radius: 10px;
 }
+
+.fa-database, #databaseTitle {
+    color: #fda24d;
+}
+
+.databaseIcon {
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: #f374d163;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
