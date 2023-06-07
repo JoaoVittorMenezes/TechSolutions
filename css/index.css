@@ -87,6 +87,8 @@ video {
 #intro {
     display: flex;
     background: fixed;
+    margin-bottom: 8rem;
+    margin-top: 8rem;
 }
 #textdescrition {
     width: 40%;
