@@ -14,22 +14,14 @@ body {
     background: fixed;
     background-color: #240d56;
 }
+/* NAVEGATION */
 header {
-    height: 9vh;
-    background-color:#fafafa00;
+    height: 9.5vh;
+    background: linear-gradient(to right, #000000, #13185a,#ffffff00 );
     display: flex;
     align-items: center;
     justify-content: space-around;
     border-bottom: 1px solid white ;
-}
-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
 }  
 #navegation ul {
     list-style: none;
@@ -43,6 +35,21 @@ video {
 #navegation a:hover{
     border-bottom: white solid 1px;
     
+}
+#slogan {
+    color: white;
+    font-size: 40px;
+    font-family: 'Major Mono Display', monospace;
+}
+/* VIDEO */
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 /* Botões de login / registro */
@@ -66,7 +73,7 @@ video {
     border-right: white solid 1px;
 }
 .top-section-right > .entrar{
-    margin-left: .4rem;
+    margin-left: 4rem;
 }
 .top-section-right, .top-section-right-btn-entrar > .btn:hover,.top-section-right > .top-section-right-border-btn > .btn:hover{
     cursor: pointer;
@@ -77,22 +84,58 @@ video {
     border: white solid 1px;
 }
 
-/* MAIN */
+/* INTRO */
 #intro {
     display: flex;
+}
+#textdescrition {
+    width: 40%;
+    margin: 3rem;
 }
 #textdescrition h1{
     color: white;
     font-size: 10px;
     margin-left: 10px;
     font-size: 20px;
+    margin-bottom: 1.5rem;
 }
-#slogan {
+#button-saiba-mais{
+    margin-top: 1.5rem;
+    background-color: #ffffff00;
     color: white;
-    font-size: 50px;
-    font-family: 'Major Mono Display', monospace;
+    height: 3rem;
+    width: 10rem;
+    font-size: 14px;
+    border: solid 1.5px white;
+    border-radius: 5px;
+    text-decoration: none;
 }
-
+/* SERVICES */
+#services{
+    display: flex;
+    flex-direction: column;
+}
+#services h2{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.icones {
+    display: flex;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.icones p{
+    margin-top: 1.5rem;
+}
+.icons-services{
+    width: 33.3%;
+}
+.fa-solid {
+    background-color: rgb(16, 32, 114);
+    font-size: 40px;
+    padding: 2rem;
+    border-radius: 100%;
+}
 /*
     footer
 */
