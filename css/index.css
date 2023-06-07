@@ -11,8 +11,7 @@ font-family: 'Share Tech Mono', monospace;
 }
 body {
     color: white;
-    background: fixed;
-    background-color: #240d56;
+    background-color: #eae8ef;
 }
 /* NAVEGATION */
 header {
@@ -87,6 +86,7 @@ video {
 /* INTRO */
 #intro {
     display: flex;
+    background: fixed;
 }
 #textdescrition {
     width: 40%;
@@ -114,10 +114,12 @@ video {
 #services{
     display: flex;
     flex-direction: column;
+    background-color: #ffffffd2;
+    color: #000000;
 }
 #services h2{
     text-align: center;
-    margin-bottom: 5rem;
+    margin: 5rem;
 }
 .icones {
     display: flex;
@@ -135,6 +137,7 @@ video {
     font-size: 40px;
     padding: 2rem;
     border-radius: 100%;
+    color: white;
 }
 /*
     footer
@@ -143,6 +146,7 @@ video {
 footer{
     background-color: white;
     color: black;
+    border-top: solid black 1px;
 }
 .bottom-section {
     display: flex;
