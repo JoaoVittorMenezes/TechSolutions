@@ -83,22 +83,71 @@ main {
     flex-direction: column;
 }
 
+main a {
+    text-decoration: none;
+}
+
 .firstRow {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 5rem;   
 }
 
 .secondRow {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 5rem 0;
 }
 
 .card {
     height: 50vh;
     width: 20vw;
-    background-color: white;
-    border: 1px solid black;
+    background-color: rgb(26, 27, 73);
+    border-radius: 20px;
+    transition: 0.3s;
+    border: 2px solid #a096ff83;
+}
+
+.card:hover {
+    scale: 1.1;
+    border: 2px solid #cfc9ff;
+}
+
+.iconBlock {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    align-items: center;
+}
+
+.fa {
+    color: #efedff;
+    font-size: 3rem;
+}
+
+.cardTitle {
+    color: #efedff;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.cardText {
+    color: #efedff;
+    text-align: center;
+    padding: 0 1.5rem;
+    margin-top: 1rem;
+}
+
+.fa-window-maximize, #websiteTitle {
+    color: #f374d1
+}
+
+.websiteIcon {
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: #f374d163;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
 }
