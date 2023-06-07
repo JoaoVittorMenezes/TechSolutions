@@ -87,14 +87,14 @@ video {
 #intro {
     display: flex;
     background: fixed;
-    margin-bottom: 8rem;
-    margin-top: 6rem;
+    padding-top: 3rem;
 }
 #textdescrition {
     width: 40%;
     margin: 3rem; 
 }
 #textdescrition p {
+    padding-top: 1rem;
     margin-bottom: 2rem; 
 }
 #textdescrition h1{
@@ -186,4 +186,5 @@ footer{
 }
 .fa-brands:hover{
     scale: 1.1;
+
 }
