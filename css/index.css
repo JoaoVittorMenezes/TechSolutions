@@ -91,15 +91,20 @@ video {
     margin-top: 8rem;
 }
 #textdescrition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 40%;
     margin: 3rem;
 }
-#textdescrition h1{
+#textdescrition .textdescrition-text h1{
     color: white;
-    font-size: 10px;
-    margin-left: 10px;
-    font-size: 20px;
+    font-size: 2rem;
+    text-indent: 10px;
     margin-bottom: 1.5rem;
+}
+#textdescrition .textdescrition-text{
+    margin-bottom: 2rem;
 }
 #button-saiba-mais{
     margin-top: 1.5rem;
@@ -107,10 +112,16 @@ video {
     color: white;
     height: 3rem;
     width: 10rem;
-    font-size: 14px;
+    font-size: 1.2rem;
     border: solid 1.5px white;
     border-radius: 5px;
+    text-shadow: -1px 5px 40px 13px rgba(255,255,255,0.19);;
     text-decoration: none;
+    transition: 0.35s;
+}
+#button-saiba-mais:hover{
+    cursor: pointer;
+    scale: 1.1;
 }
 /* SERVICES */
 #services{
