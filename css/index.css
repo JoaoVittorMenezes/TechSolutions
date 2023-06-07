@@ -119,7 +119,7 @@ video {
 #services{
     display: flex;
     flex-direction: column;
-    background-color: #ffffffd2;
+    
     color: #000000;
 }
 #services h2{

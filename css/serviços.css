@@ -13,10 +13,15 @@ body {
     color: white;
     background-color: #491bbe;
 }
+
+.container {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #000000, #13185a,#ffffff00 );
+}
 /* NAVEGATION */
 header {
     height: 9.5vh;
-    background: linear-gradient(to right, #000000, #13185a,#ffffff00 );
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -72,12 +77,28 @@ header {
     border: white solid 1px;
 }
 /* SERVIÇOS */
-#divservices{
+
+main {
     display: flex;
     flex-direction: column;
 }
-.services img{
-    width: 100px;
-    height: 100px;
-    
+
+.firstRow {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;   
+}
+
+.secondRow {
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 0;
+}
+
+.card {
+    height: 50vh;
+    width: 20vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
 }
