@@ -88,18 +88,22 @@ video {
     display: flex;
     background: fixed;
     padding-top: 3rem;
+    margin-left: 2rem;
 }
 #textdescrition {
     width: 40%;
     margin: 3rem; 
 }
+div section #textslogan{
+    margin-bottom: 2.5rem;
+}
 #textdescrition p {
-    padding-top: 1rem;
-    margin-bottom: 2rem; 
+    margin-bottom: 1rem; 
 }
 #textdescrition h1{
     color: white;
     font-size: 1.25rem;
+    margin-bottom: 1rem;
 }
 .button-saiba-mais{
     margin-top: 1.5rem;
