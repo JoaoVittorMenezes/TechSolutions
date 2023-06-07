@@ -99,13 +99,13 @@ video {
 }
 #textdescrition h1{
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .button-saiba-mais{
     margin-top: 1.5rem;
     background-color: #ffffff00;
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     border: solid 1.5px white;
     border-radius: 5px;
     text-decoration: none;
