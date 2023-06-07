@@ -71,3 +71,13 @@ header {
     color: white;
     border: white solid 1px;
 }
+/* SERVIÇOS */
+#divservices{
+    display: flex;
+    flex-direction: column;
+}
+.services img{
+    width: 100px;
+    height: 100px;
+    
+}
