@@ -37,7 +37,7 @@ header {
 }
 #slogan {
     color: white;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: 'Major Mono Display', monospace;
 }
 /* VIDEO */
@@ -59,7 +59,7 @@ video {
     padding: 7px;
     color: white;
     background-color: #fafafa00;
-    border-radius: 0.7rem;
+    border-radius: 10px;
     border: none;
     transition: 0.5s;
 }
@@ -107,7 +107,7 @@ video {
     color: white;
     font-size: 16px;
     border: solid 1.5px white;
-    border-radius: 5px;
+    border-radius: 10px;
     text-decoration: none;
     padding: 0.8rem 1rem 0.8rem 1rem;
     transition: 0.2s;
