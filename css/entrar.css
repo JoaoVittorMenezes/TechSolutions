@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+font-family: 'Share Tech Mono', monospace;
+}
+body {
+    color: white;
+}
+
+/* NAV */
+
+header {
+    height: 9.5vh;
+    background: linear-gradient(to right, #000000, #13185a,#ffffff00 );
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid white ;
+}  
+#navegation ul {
+    list-style: none;
+    display: flex;
+    column-gap: 3rem;
+}
+#navegation a {
+    color: white;
+    text-decoration: none;
+}
+#navegation a:hover{
+    border-bottom: white solid 1px;
+    
+}
+#slogan {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Major Mono Display', monospace;
+}
+
+/* VIDEO */
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* FORM */
+
+.div-form {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #0b0234;
+    border: 1px solid rgb(0, 0, 0);
+}
+.sec-input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.0rem;
+}
+.input  {
+    color: #ffffff;
+    width: 60%;
+    height: 1.5rem;
+    margin-left: 1rem;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent ;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+#button-submit {
+    background-color: #ffffff;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 20px;
+    margin-left: 70%;
+}

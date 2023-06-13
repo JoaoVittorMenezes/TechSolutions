@@ -37,7 +37,9 @@ header {
 }
 #slogan {
     color: white;
-    font-size: 40px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: none;
     font-family: 'Major Mono Display', monospace;
 }
 /* VIDEO */
@@ -59,7 +61,7 @@ video {
     padding: 7px;
     color: white;
     background-color: #fafafa00;
-    border-radius: 0.7rem;
+    border-radius: 10px;
     border: none;
     transition: 0.5s;
 }
@@ -87,47 +89,29 @@ video {
 #intro {
     display: flex;
     background: fixed;
-    margin-bottom: 8rem;
-    margin-top: 8rem;
+    padding-top: 3rem;
+    margin-left: 2rem;
 }
 #textdescrition {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 40%;
-    margin: 3rem;
+    margin: 3rem; 
+}
+div section #textslogan{
+    margin-bottom: 2.5rem;
+}
+#textdescrition p {
+    margin-bottom: 1rem; 
 }
 #textdescrition .textdescrition-text h1{
     color: white;
-    font-size: 2rem;
-    text-indent: 10px;
-    margin-bottom: 1.5rem;
-}
-#textdescrition .textdescrition-text{
-    margin-bottom: 2rem;
-}
-#button-saiba-mais{
-    margin-top: 1.5rem;
-    background-color: #ffffff00;
-    color: white;
-    height: 3rem;
-    width: 10rem;
-    font-size: 1.2rem;
-    border: solid 1.5px white;
-    border-radius: 5px;
-    text-shadow: -1px 5px 40px 13px rgba(255,255,255,0.19);;
-    text-decoration: none;
-    transition: 0.35s;
-}
-#button-saiba-mais:hover{
-    cursor: pointer;
-    scale: 1.1;
-}
 /* SERVICES */
 #services{
     display: flex;
     flex-direction: column;
-    background-color: #ffffffd2;
+    
     color: #000000;
 }
 #services h2{
@@ -194,4 +178,5 @@ footer{
 }
 .fa-brands:hover{
     scale: 1.1;
+
 }
