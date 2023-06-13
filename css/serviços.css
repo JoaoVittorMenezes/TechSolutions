@@ -155,18 +155,47 @@ main a {
 }
 
 .fa-database, #databaseTitle {
-    color: #fda24d;
+    color: #ff9c3f;
 }
 
 .databaseIcon {
     height: 4.5rem;
     width: 4.5rem;
-    background-color: #fda24d59;
+    background-color: #fda24d79;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
 }
+
+.fa-lightbulb, #consultoriaTitle {
+    color: #6bd1ff;
+}
+
+.consultoriaIcon {
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: #6bd0ff48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.fa-desktop, #designTitle {
+    color: #e7c428;
+}
+
+.designIcon {
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: #e7ca2856;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
 
 .fa-shield, #securityTitle {
     color: #f13e44;
@@ -189,7 +218,7 @@ main a {
 .mobileIcon {
     height: 4.5rem;
     width: 4.5rem;
-    background-color: #b8eb4171;
+    background-color: #b8eb4163;
     display: flex;
     justify-content: center;
     align-items: center;
