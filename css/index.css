@@ -55,7 +55,8 @@ video {
 
 /* Botões de login / registro */
 
-.top-section-right,.top-section-right-btn-entrar > .btn,.top-section-right > .top-section-right-border-btn > .btn {
+.top-section-right,.top-section-right-btn-entrar > a > .btn, .top-section-right > .top-section-right-btn-registrar > a > .btn {
+    text-decoration: none;
     font-family: 'Share Tech Mono', monospace;
     font-weight: 600;
     padding: 7px;
@@ -67,8 +68,9 @@ video {
 }
 .top-section-right > .top-section-right-btn-entrar{
     display: inline;
+
 }
-.top-section-right > .top-section-right-border-btn{
+.top-section-right > .top-section-right-btn-registrar{
     display: inline;
     padding-right: 10px;
     border-right: white solid 1px;
@@ -76,11 +78,11 @@ video {
 .top-section-right > .entrar{
     margin-left: 4rem;
 }
-.top-section-right, .top-section-right-btn-entrar > .btn:hover,.top-section-right > .top-section-right-border-btn > .btn:hover{
+.top-section-right, .top-section-right-btn-entrar > a > .btn:hover,.top-section-right > .top-section-right-btn-registrar > a > .btn:hover{
     cursor: pointer;
     scale: 1.1;
 }
-.top-section-right-btn-entrar > .btn:hover,.top-section-right-border-btn > .btn:hover{
+.top-section-right-btn-entrar > a > .btn:hover,.top-section-right-btn-registrar > a > .btn:hover{
     color: white;
     border: white solid 1px;
 }
