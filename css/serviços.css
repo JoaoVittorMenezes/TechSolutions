@@ -288,7 +288,7 @@ main a {
     }
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 800px) {
     .iconBlock {
         padding-top: 1rem;
     }
