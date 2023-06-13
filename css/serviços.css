@@ -169,13 +169,13 @@ main a {
 }
 
 .fa-shield, #securityTitle {
-    color: #b8eb41;
+    color: #f13e44;
 }
 
 .securityIcon {
     height: 4.5rem;
     width: 4.5rem;
-    background-color: #b8eb4171;
+    background-color: #f13e4452;
     display: flex;
     justify-content: center;
     align-items: center;
