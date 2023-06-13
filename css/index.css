@@ -93,9 +93,6 @@ video {
     margin-left: 2rem;
 }
 #textdescrition {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 40%;
     margin: 3rem; 
 }
@@ -105,8 +102,25 @@ div section #textslogan{
 #textdescrition p {
     margin-bottom: 1rem; 
 }
-#textdescrition .textdescrition-text h1{
+#textdescrition h1{
     color: white;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+.button-saiba-mais{
+    margin-top: 1.5rem;
+    background-color: #ffffff00;
+    color: white;
+    font-size: 1rem;
+    border: solid 1.5px white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    transition: 0.2s;
+}
+.button-saiba-mais:hover {
+    scale: 1.1;
+}
 /* SERVICES */
 #services{
     display: flex;
