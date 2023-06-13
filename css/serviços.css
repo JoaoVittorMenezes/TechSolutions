@@ -11,7 +11,7 @@ font-family: 'Share Tech Mono', monospace;
 }
 body {
     color: white;
-    background-color: #491bbe;
+    background-color: #4d21bf;
 }
 .container {
     height: 100%;
@@ -112,6 +112,7 @@ main a {
 .card:hover {
     scale: 1.1;
     border: 2px solid #cfc9ff;
+    box-shadow: 3px 3px 10px #00000071, -3px -3px 10px #00000071;
 }
 
 .iconBlock {
@@ -160,7 +161,35 @@ main a {
 .databaseIcon {
     height: 4.5rem;
     width: 4.5rem;
-    background-color: #f374d163;
+    background-color: #fda24d59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.fa-shield, #securityTitle {
+    color: #b8eb41;
+}
+
+.securityIcon {
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: #b8eb4171;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.fa-mobile-screen-button, #mobileTitle {
+    color: #b8eb41;
+}
+
+.mobileIcon {
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: #b8eb4171;
     display: flex;
     justify-content: center;
     align-items: center;
