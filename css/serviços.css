@@ -9,6 +9,12 @@
 :root{
 font-family: 'Share Tech Mono', monospace;
 }
+
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
 body {
     color: white;
     background-color: #4d21bf;
@@ -223,4 +229,199 @@ main a {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .cardText {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .card {
+        width: 25vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .cardText {
+        font-size: 0.8rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .top-section-right > .top-section-right-border-btn {
+        border-right: none;
+        padding: 0;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 0.3rem
+    }
+    .top-section-right > .top-section-right-btn-entrar {
+        padding-top: 0.2rem;
+    }
+    .top-section-right {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .top-section-right .btn {
+        padding: 0;
+    }
+    .top-section-right > .top-section-right-border-btn > .btn {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    #slogan {
+        text-align: center;
+        font-size: 2.3rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .card {
+        width: 30vw;
+    }
+    #navegation ul {
+        column-gap: 1rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .iconBlock {
+        padding-top: 1rem;
+    }
+    .cardTitle {
+        margin-top: 0.8rem;
+    }
+    h2 {
+        font-size: 1.1rem;
+    }
+    .fa {
+        font-size: 2rem;
+    }
+    .iconBG {
+        height: 4rem;
+        width: 4rem;
+    }
+    .cardText {
+        font-size: 0.7rem;
+    }
+    .firstRow {
+        padding-top: 3.5rem;
+    }
+    .secondRow {
+        padding: 3.5rem 0;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .cardText {
+        font-size: 0.6rem;
+    }
+    #slogan {
+        font-size: 1.8rem;
+    }
+    ul li {
+        font-size: 0.9rem;
+    }
+    .top-section-right {
+        font-size: 0.8rem;
+    }
+    .registro, .entrar {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #slogan {
+        font-size: 1.3rem;
+    }
+    .iconBlock {
+        padding-top: 0.8rem;
+    }
+    .cardTitle {
+        margin-top: 0.6rem;
+    }
+    h2 {
+        font-size: 0.9rem;
+    }
+    .fa {
+        font-size: 1.5rem;
+    }
+    .iconBG {
+        height: 3rem;
+        width: 3rem;
+    }
+    .cardText {
+        font-size: 0.5rem;
+    }
+    .firstRow {
+        padding-top: 2.5rem;
+    }
+    .secondRow {
+        padding: 2.5rem 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #navegation ul {
+        column-gap: 0.5rem;
+    }
+    #slogan {
+        font-size: 1.5rem;
+    }
+    ul li {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .registro ,.entrar{
+        font-size: 0.6rem;
+    }
+    #navegation ul {
+        column-gap: 0.2rem;
+    }
+    #slogan {
+        font-size: 1rem;
+    }
+    .cardText {
+        font-size: 0.45rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .iconBlock {
+        padding-top: 0.4rem;
+    }
+    .cardTitle {
+        margin-top: 0.4rem;
+    }
+    .cardText {
+        padding: 0 1rem;
+        margin-top: 0.8rem;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .cardText {
+        font-size: 0.4rem;
+        margin-top: 0.5rem;
+    }
+    h2 {
+        font-size: 0.7rem;
+    }
 }
