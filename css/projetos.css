@@ -77,18 +77,50 @@ header {
     color: white;
     border: white solid 1px;
 }
-/* PROJETOS */
-/* #projetos {
+/*  section dos cards */
+
+section{
     display: flex;
-    width: 10%;
+    flex-direction: row;
 }
-#codegenius{
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box {
     display: flex;
-    justify-content: end;
+    background-color:  rgb(26, 27, 73);
+    margin-top: 10rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    border: 2px solid #a096ff83;
+    border-radius: 10px;
 }
-#codegenius p {
+.box-txt p{
+    display:flex ;
+    justify-content: flex-start;
     padding: 4rem;
+    font-size: 1.5rem;
 }
-#codegenius img {
-    padding-left: 4rem;
-} */
+.box-txt h2{
+    width: fit-content;
+    border: 2px solid #a096ff83;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 2.8rem;
+    margin: 2rem 0 2rem 0;
+    transition: 0.5s;
+}
+.box-txt h2:hover{
+    scale: 1.05;
+    border-color: #491bbe;
+    font-size: 3.3rem;
+}
+img {
+    padding: 1rem;
+    width:850px;
+}
