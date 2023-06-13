@@ -38,6 +38,8 @@ header {
 #slogan {
     color: white;
     font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: none;
     font-family: 'Major Mono Display', monospace;
 }
 /* VIDEO */
