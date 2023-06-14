@@ -57,7 +57,7 @@ video {
   .content {
     height: 65%;
     width: 30%;
-    background-color: #1c0c39;
+    background-color: rgb(26, 27, 73);
     display: flex;
     flex-direction: column;
     align-items: center;
